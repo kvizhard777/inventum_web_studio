@@ -1,0 +1,58 @@
+@import "reset.css";
+@import "style.css";
+@import "adaptive.css";
+@import "responsive.css";
+@import "hover.css";
+@import "cursor.css";
+@import "scroll.css";
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Unbounded', cursive;
+    background-color: #070707;
+    color: #fff;
+    cursor: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.under {
+    border-bottom: 2px solid #00f44a;
+    padding-bottom: 4px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.green {
+    color: #00f44a;
+}
+
+a {
+    cursor: none;
+}
+
+/* Margins */
+
+.header {
+    margin-left: 40px;
+    margin-right: 40px;
+
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.main {
+    margin-top: 70px;
+}
+
+.footer {
+    margin-left: 40px;
+    margin-right: 40px;
+
+    margin-top: 70px;
+}

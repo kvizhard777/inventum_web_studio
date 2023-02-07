@@ -1,0 +1,41 @@
+/* Header NAV-LINKS */
+.nav__link-links:hover {
+    color: #fff;
+    border-bottom: 1px solid #00f44a;
+    padding-bottom: 3px;
+    
+    transition: 0.1s ease;
+}
+
+/* Header NAV-BTN */
+.nav__button:hover {
+    color: #00f44a;
+    background-color: #070707;
+    transform: scale(1.1);
+
+    transition: 0.2s ease;
+}
+
+/* Header MAIN-BTN */
+.header__main-button-first:hover {
+    color: #00f44a;
+    background-color: #070707;
+
+    transition: 0.2s ease;
+}
+
+.header__main-button-second:hover {
+    color: #fff;
+    background-color: #070707;
+
+    transition: 0.2s ease;
+}
+
+/* Main BUTTON */
+.main__button:hover {
+    color: #fff;
+    background-color: #101010;
+    transform: scale(1.1);
+
+    transition: 0.2s ease;
+}
