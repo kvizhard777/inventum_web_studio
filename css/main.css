@@ -36,10 +36,6 @@ a {
     cursor: none;
 }
 
-.sec {
-    margin-top: 75px;
-}
-
 /* Margins */
 
 .header {
@@ -59,4 +55,16 @@ a {
     margin-right: 40px;
 
     margin-top: 70px;
+}
+
+/* SEC */
+
+.sec {
+    margin-top: 65px;
+}
+
+@media screen and (max-width: 768px) {
+    .sec {
+        margin-top: 64px;
+    }
 }
