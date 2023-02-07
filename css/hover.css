@@ -39,3 +39,9 @@
 
     transition: 0.2s ease;
 }
+
+/* Main SERVICES-BLOCK-BTN */
+.main__services-block-btn:hover {
+    color: #00f44a;
+    background-color: #151515;
+}

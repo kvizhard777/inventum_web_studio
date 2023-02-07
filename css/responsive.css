@@ -1,3 +1,10 @@
+@media screen and (max-width: 1000px) {
+    /* Cursor */
+    #cursor, #aura {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 970px) {
     /* Header NAV-LINKS */
     .nav__link {
