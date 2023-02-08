@@ -5,6 +5,7 @@
 @import "hover.css";
 @import "cursor.css";
 @import "scroll.css";
+@import "animations.css";
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
 
 body {
@@ -30,6 +31,7 @@ body {
 
 .green {
     color: #00f44a;
+    filter: drop-shadow(0 0 55px #00f44a);
 }
 
 a {
