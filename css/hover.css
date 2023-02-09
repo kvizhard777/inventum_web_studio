@@ -47,3 +47,10 @@
     color: #00f44a;
     background-color: #151515;
 }
+
+/* Main PORTFOLIO-BLOCKS-IMG */
+.main__portfolio-img:hover {
+    transform: scale(1.05);
+
+    transition: 0.4s ease;
+}
