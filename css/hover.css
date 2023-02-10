@@ -54,3 +54,12 @@
 
     transition: 0.4s ease;
 }
+
+/* Main CONTACS-BLOCK-BTN */
+.main__contacts-block-btn:hover {
+    transform: scale(1.1);
+    color: #00f44a;
+    background-color: #222222;
+
+    transition: 0.2s ease;
+}

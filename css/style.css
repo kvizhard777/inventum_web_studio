@@ -436,3 +436,91 @@
 
     transition: 0.4s ease;
 }
+
+/* Main CONTACTS */
+
+.main__contacts {
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    text-align: center;
+    background-color: #101010;
+}
+
+.main__contacts-block-wrapper {
+    display: grid;
+    align-items: center;
+    row-gap: 25px;
+
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.main__contacts-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 35px 60px;
+    border-radius: 25px;
+    background-color: #222222;
+}
+
+.main__contacts-block-wrap-content {
+    display: flex;
+    align-items: center;
+
+    column-gap: 40px;
+}
+
+/* Main CONTACTS-IMG */
+
+.main__content-block-img-div {
+    background-image: linear-gradient(to bottom, #00f44a, #00e144, #00ce3e, #00bb39, #00a933);
+    filter: drop-shadow(0 0 30px #00f44954);
+
+    padding: 15px 15px;
+    border-radius: 20px;
+}
+
+.main__contacts-block-img {
+    width: 50px;
+}
+
+/* Main CONTACTS-TEXT */
+
+.main__contacts-block-text-wrapper {
+    display: grid;
+    text-align: left;
+
+    row-gap: 5px;
+}
+
+.main__contacts-block-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.main__contacts-block-text {
+    font-size: 15px;
+    font-weight: 200;
+
+    color: #c3c3c3;
+}
+
+/* Main CONTACTS-BTN */
+
+.main__contacts-block-btn {
+    padding: 20px 35px;
+    border-radius: 10px;
+    border: 1px solid #00f44a;
+
+    font-size: 18px;
+    font-weight: 500;
+
+    color: #151515;
+    background-color: #00f44a;
+
+    transition: 0.2s ease;
+}
