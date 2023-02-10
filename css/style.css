@@ -524,3 +524,38 @@
 
     transition: 0.2s ease;
 }
+
+/* Footer */
+
+.footer__wrapper {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    row-gap: 20px;
+}
+
+/* Footer SOCIALS */
+
+.footer__socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    column-gap: 10px;
+}
+
+.footer__socials-img {
+    width: 40px;
+
+    transition: 0.2s ease;
+}
+
+/* Footer COPYRIGHT */
+
+.footer__copyright {
+    font-size: 14px;
+    font-weight: 200;
+}

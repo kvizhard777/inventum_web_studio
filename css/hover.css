@@ -63,3 +63,10 @@
 
     transition: 0.2s ease;
 }
+
+/* Footer SOCIALS-IMG */
+.footer__socials-img:hover {
+    transform: scale(1.1);
+
+    transition: 0.2s ease;
+}
